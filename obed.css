@@ -1,0 +1,198 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* tablet view */
+@media screen and (max-width:700px) {
+
+
+    .header1 {
+        width: 100%;
+        height: 10vh;
+        overflow: hidden;
+        font-size: 5px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        border: 1px solid red;
+
+    }
+
+    .aside {
+        width: 40vw;
+
+    }
+
+    .kyle h1 {
+        font-size: 10px;
+        text-align: center;
+        border: 1px solid red;
+    }
+
+    .home {
+        border: 1px solid black;
+        font-size: 5px;
+        display: flex;
+
+    }
+
+    .about {
+        border: 1px solid black;
+        background-color: antiquewhite;
+        color: #0e146b;
+        font-size: xx-small;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        font-weight: bolder;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+
+    .story {
+        margin-left: 12px;
+        font-size: x-small;
+    }
+
+    .ifynaco {
+        border: 1px solid black;
+        display: flex;
+        background-color: blue;
+        color: antiquewhite;
+        justify-content: center;
+        align-items: center;
+        font-size: x-small;
+    }
+
+    .ggg {
+        font-weight: bold;
+
+    }
+
+    .ggo {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        text-align: start;
+        font-size: x-small;
+
+    }
+
+
+    .imoge {
+        width: 30vw;
+        display: flex;
+    }
+
+    .mos {
+        border: 1px solid black;
+        width: 30vw;
+        background-color: aqua;
+        font-size: xx-small;
+        color: tomato;
+        font-weight: bold;
+        display: flex;
+
+    }
+
+    .obed {
+        font-size: xx-small;
+        color: #0e146b;
+    }
+
+    .foot {
+        font-size: xx-small;
+        display: flex;
+        align-items: center;
+        background-color: blue;
+        width: 90vw;
+
+    }
+
+
+
+}
+
+/* mobile view */
+
+
+@media screen and (max-width:450px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        font-size: xx-small;
+        font-weight: bolder;
+        text-align: center;
+        width: 40%;
+
+    }
+
+    .mobile {
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aside {
+        display: flex;
+        width: 80vw;
+        /* border: 1px solid white; */
+        /* background-color: black; */
+    }
+
+
+    .story {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: xx-small;
+        margin-right: 30%;
+
+    }
+
+    .mad {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+    }
+
+    .ifynaco {
+        font-size: xx-small;
+    }
+
+    .ggg {
+        font-size: xx-small;
+    }
+
+    .mos {
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        font-size: xx-small;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 2px;
+        width: 45vw;
+        background-color: black;
+    }
+
+    .imoge img {
+        width: 20vw;
+
+    }
+}
